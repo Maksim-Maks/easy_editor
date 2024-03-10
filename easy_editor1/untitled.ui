@@ -2,6 +2,14 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>957</width>
+    <height>610</height>
+   </rect>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -9,10 +17,10 @@
    <widget class="QLabel" name="photo_lb">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>330</y>
-      <width>55</width>
-      <height>13</height>
+      <x>10</x>
+      <y>60</y>
+      <width>741</width>
+      <height>501</height>
      </rect>
     </property>
     <property name="text">
@@ -22,8 +30,8 @@
    <widget class="QListWidget" name="files_list">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>10</y>
+      <x>760</x>
+      <y>0</y>
       <width>191</width>
       <height>501</height>
      </rect>
@@ -79,8 +87,8 @@
    <widget class="QPushButton" name="dir_btn">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>530</y>
+      <x>760</x>
+      <y>520</y>
       <width>189</width>
       <height>23</height>
      </rect>
@@ -95,7 +103,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>957</width>
      <height>21</height>
     </rect>
    </property>
